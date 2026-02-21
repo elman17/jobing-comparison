@@ -2,7 +2,6 @@
 
 Jobing.az platforması üçün hazırlanmış interaktiv vakansiya müqayisə modulu.
 
-## Ekran Görüntüləri
 
 ![Texniki Tapşırıq](src/assets/img_1.png)
 
