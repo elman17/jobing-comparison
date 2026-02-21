@@ -1,26 +1,33 @@
 # Jobing.az — Müqayisə Paneli (Comparison Drawer)
 
-## Haqqında
-Jobing.az platforması üçün hazırlanmış interaktiv vakansiya müqayisə modulu. İstifadəçilər eyni anda maksimum 3 vakansiyani müqayisə edə bilərlər.
+Jobing.az platforması üçün hazırlanmış interaktiv vakansiya müqayisə modulu.
 
-## Texnologiyalar
+## Ekran Görüntüləri
+
+![Texniki Tapşırıq](src/assets/img_1.png)
+
+![Sayt Dizaynı](src/assets/img_2.png)
+
+## Features
+
+- ✅ Vakansiyaları müqayisəyə əlavə et (maks. 3)
+- ✅ 4-cü vakansiya seçildikdə xəbərdarlıq bildirişi
+- ✅ Tək-tək silmə və "Hamısını təmizlə"
+- ✅ Səhifə refresh-dən sonra seçimlər qalır (localStorage)
+- ✅ Aşağıdan açılan Drawer paneli
+- ✅ Toast bildirişləri
+- ✅ Responsive dizayn (mobil və desktop)
+
+## Technologies
+
 - React 19
 - Material UI (MUI)
 - Vite
 - localStorage (state management)
 
-## Funksionallıq
-- ✅ Vakansiyaları müqayisəyə əlavə et (maks. 3)
-- ✅ 4-cü vakansiya seçildikdə xəbərdarlıq toast-u
-- ✅ Tək-tək silmə
-- ✅ Hamısını təmizlə
-- ✅ Səhifə refresh-dən sonra seçimlər qalır (localStorage)
-- ✅ Floating button (drawer bağlı olanda)
-- ✅ Mobil və desktop uyğun
-
-## Qurulum
+## Installation
 ```bash
-git clone https://github.com/sizin-username/jobing-comparison.git
+git clone https://github.com/elman17/jobing-comparison.git
 cd jobing-comparison
 npm install
 npm run dev
@@ -39,6 +46,11 @@ src/
 ├── hooks/
 │   ├── useComparison.js
 │   └── useToast.js
+├── assets/
+│   ├── img_1.png
+│   └── img_2.png
 ├── data.js
 └── App.jsx
 ```
+
+**Hazırladı:** Almaz Muradov
