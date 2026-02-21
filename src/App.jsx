@@ -9,7 +9,7 @@ import ComparisonDrawer from "./components/ComparisonDrawer";
 import { JOBS } from "./data";
 
 import { useToast } from "./hooks/useToast";
-import Sidebar from "./components/SideBar";
+import Sidebar from "./components/Sidebar";
 import { useComparison } from "./hooks/ useComparison";
 
 export default function App() {
